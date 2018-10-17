@@ -10,9 +10,11 @@
     <style>
         #page_home {
             margin-bottom: 1000px;
+            margin-top: 10px;
         }
         #page_pets {
     margin-bottom: 1000px;
+    margin-top: 100px;
 }
 #page_detail {
     margin-bottom: 1000px;
@@ -25,15 +27,14 @@
 </head>
 
 <body>
+    <div id="nav_box" class="container-fluid sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #627e92;">
+            <a class="navbar-brand" href="#">Logo and name</a>
+            <a class="nav-item nav-link" href="#page_pets">Rent</a>
+            <a class="nav-item nav-link" href="#page_home">Home</a>
+        </nav>
+    </div>
     <div id="page_home">
-        <div id="nav_box" class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #627e92;">
-                <a class="navbar-brand" href="#">Logo and name</a>
-                <a class="nav-item nav-link active" href="#">Contact</a>
-                <a class="nav-item nav-link" href="#">Rent</a>
-                <a class="nav-item nav-link" href="#">Home</a>
-            </nav>
-        </div>
         <div id="jumbo_box" class="container">
             <div class="jumbotron">
                 <h1 class="display-4">Awesome Pets</h1>
