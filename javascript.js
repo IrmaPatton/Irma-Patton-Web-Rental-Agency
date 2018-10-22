@@ -28,10 +28,18 @@ const PAGE_DATA = {
     }
 };
 
-function pet_temp() {
+function pet1_temp() {
     var source = document.getElementById("pet_page_1").innerHTML;
     var template = Handlebars.compile(source);
     var html = template(PAGE_DATA.pet1);
     document.querySelector("#pet1_page").insertAdjacentHTML("beforeend", html);
 }
-pet_temp();
+pet1_temp();
+
+function pet2_temp() {
+    var source = document.getElementById("pet_page_2").innerHTML;
+    var template = Handlebars.compile(source);
+    var html = template(PAGE_DATA.pet2);
+    document.querySelector("#pet2_page").insertAdjacentHTML("beforeend", html);
+}
+pet2_temp();
