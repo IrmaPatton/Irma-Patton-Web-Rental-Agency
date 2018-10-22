@@ -14,8 +14,8 @@ const PAGE_DATA = {
         Price: "976.01",
         LostFine: "1952",
         info:
-            "6 1/2 foot, 14-ton, hairy ,and ugly. Made from a skull 29,000 years old\
-        No magic, sorry."
+            "6 1/2 foot, 14-ton, hairy ,and ugly. Made from a skull 29,000 years old.\
+        No magic sorry."
     },
     pet3: {
         pic: "images/griffon.jpg",
@@ -43,3 +43,11 @@ function pet2_temp() {
     document.querySelector("#pet2_page").insertAdjacentHTML("beforeend", html);
 }
 pet2_temp();
+
+function pet3_temp() {
+    var source = document.getElementById("pet_page_3").innerHTML;
+    var template = Handlebars.compile(source);
+    var html = template(PAGE_DATA.pet3);
+    document.querySelector("#pet3_page").insertAdjacentHTML("beforeend", html);
+}
+pet3_temp();
