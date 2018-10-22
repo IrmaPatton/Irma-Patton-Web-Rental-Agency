@@ -59,6 +59,30 @@
         </div>
     </div>
 
+    <div id="pets_pages">
+    </div>
+
+    <script> id = "pets_pages" type = "text/x-handlebars-template" >
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <img src={{ pic }}>
+                    </div>
+                        <div class="col">
+                            <p>{{ name }}</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p>Rent price: {{ price }}</p>
+                            <p>Lost fine: {{ LostFine }}</p>
+                            <p>Pet info: {{ info }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </script>
+
     <!--bootstrap stuff-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
