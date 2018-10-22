@@ -1,5 +1,6 @@
 const PAGE_DATA = {
     pet1: {
+        pic: "images/watcher.jpeg",
         name: "The Watcher",
         Price: "900.01",
         LostFine: "1800",
@@ -7,6 +8,7 @@ const PAGE_DATA = {
              Lives in water. Even we don't know what it is."
     }
     pet2: {
+        pic: "images/unicorn.jpg",
         name: "Unicorn",
         Price: "976.01",
         LostFine: "1952",
@@ -14,6 +16,7 @@ const PAGE_DATA = {
         No magic, sorry."
     }
     pet3: {
+        pic: "images/griffon.jpg",
         name: "Griffon",
         Price: "859.01",
         LostFine: "1718",
