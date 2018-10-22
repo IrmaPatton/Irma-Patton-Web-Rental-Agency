@@ -27,3 +27,11 @@ const PAGE_DATA = {
          A eagle and lion mix you don't want to miss."
     }
 };
+
+function pet_temp() {
+    var source = document.getElementById("pet_page_1").innerHTML;
+    var template = Handlebars.compile(source);
+    var html = template(PAGE_DATA.pet1);
+    document.querySelector("#pet1_page").insertAdjacentHTML("beforeend", html);
+}
+pet_temp();
