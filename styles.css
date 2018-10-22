@@ -25,3 +25,15 @@
 #pet3_page {
     margin-bottom: 1000px;
 }
+
+body {
+    background-color: #f7f7f7;
+}
+
+.kolor {
+    text-decoration-color: #140023;
+}
+
+.jumbotron {
+    background-color: #ce7640;
+}
